@@ -5,9 +5,9 @@
 
 使用方式：  
 生成汇编代码文件asm.txt  
-./minic file_name  
+./minic source_file  
 此外上面的命令会将三地址码及符号表信息打印到屏幕上，可以使用输出重定位保存到文件中  
-./minic file_name > a.tac  
+./minic source_file > a.tac  
 
 语法规则与C语言基本一致，但只支持int和void(在语法分析阶段可以支持float，但在目标代码生成阶段不能生成汇编代码)  
 使用python风格缩进  

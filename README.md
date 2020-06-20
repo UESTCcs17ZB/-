@@ -13,3 +13,17 @@
 使用python风格缩进  
 使用go风格的for语句(结合while和for的用法)  
 for、if语句可以不写小括号，但必须换行  
+return只能且必须出现在函数末尾  
+  
+eg:  
+int fib(int n)  
+    int ret;  
+    if n<2  
+        ret = n;  
+    else  
+        ret = fib(n-1)+fib(n-2);  
+    return ret;  
+void main()
+    int f;  
+    f=fib(5);  
+    return;  

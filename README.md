@@ -1,5 +1,5 @@
 # compiler-engineering  
-为了练习学到编译原理知识写的toy language编译器  
+为了练习学到的编译原理知识，写的toy language编译器  
 前端使用lex和yacc，中间代码的格式是三地址码tac，后端写得比较简单，没做优化  
 还没有编写汇编器，只能手动将汇编代码转换为机器码  
 

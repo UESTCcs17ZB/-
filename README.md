@@ -18,14 +18,14 @@ return只能且必须出现在函数末尾
 eg:  
 ```
 int fib(int n)  
-  int ret;  
-  if n<2  
-    ret = n;  
-  else  
-    ret = fib(n-1)+fib(n-2);  
-  return ret;  
+	int ret;  
+	if n<2  
+ 		ret = n;  
+	else  
+		ret = fib(n-1)+fib(n-2);  
+	return ret;  
 void main()
-  int f;  
-  f=fib(5);  
-  return;  
+	int f;  
+	f=fib(5);  
+	return;  
 ```

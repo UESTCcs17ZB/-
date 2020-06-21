@@ -10,7 +10,7 @@
 ./minic source_file > a.tac  
 
 语法规则与C语言基本一致，但只支持int和void(在语法分析阶段可以支持float，但在目标代码生成阶段不能生成汇编代码)  
-使用python风格缩进  
+使用python风格缩进，缩进时只能使用tab  
 使用go风格的for语句(结合while和for的用法)  
 for、if语句可以不写小括号，但必须换行  
 return只能且必须出现在函数末尾  

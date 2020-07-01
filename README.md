@@ -15,7 +15,7 @@
 for、if语句可以不写小括号，但必须换行  
 return只能且必须出现在函数末尾  
   
-eg:  
+i.e.
 ```
 int fib(int n)  
     int ret;  
